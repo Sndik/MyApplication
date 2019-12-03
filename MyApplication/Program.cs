@@ -8,13 +8,15 @@ namespace MyApplication
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)// Изменён метод Main
         {
             Console.Write("Hello");
             Console.WriteLine("World");
             Console.Write("!");
 
             Console.ReadLine();
+
+            return 0;
 
        
 
